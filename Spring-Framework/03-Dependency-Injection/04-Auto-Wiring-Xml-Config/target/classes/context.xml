@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="mainService" class="com.jdc.beans.MainService"></bean>
+	<!-- <bean id="serviceImpl" class="com.jdc.beans.ServiceImpl"></bean> -->
+	
+	<!-- Autowire using byName (or) byType that can be used for setter injection and must be same name -->
+	<!-- <bean id="myClient" class="com.jdc.beans.MyClient" autowire="byName"></bean> -->
+	
+	<bean id="instanceFactory" class="com.jdc.beans.factory.MyInstanceFactory"></bean>
+	<!-- Autowire using Constructor-->
+	<bean id="myFactory" factory-bean="instanceFactory" factory-method="generate" autowire="constructor"></bean>
+
+</beans>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="mainService" class="com.jdc.beans.MainService"></bean>
+	<bean id="serviceImpl" class="com.jdc.beans.ServiceImpl"></bean>
+	
+	<bean id="instanceFacotry" class="com.jdc.beans.factory.MyInstanceFactory"></bean>
+	<bean factory-bean="instanceFacotry" factory-method="generate">
+		<constructor-arg ref="serviceImpl"></constructor-arg>
+	</bean>
+
+</beans>

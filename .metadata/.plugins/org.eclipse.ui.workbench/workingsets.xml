@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700472250690_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700472250706_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700798681314_3" label="Spring-Framework" name="Spring-Framework">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Spring-Framework" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-IOC-Container" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-IOC-Using-XML-Config" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-IOC-Using-Annotation-Config" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/03-IOC-Using-JavaBase-Config" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/04-Hybrid-Xml-Annotation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-Spring-Beans" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-Bean-Creation-Xml-Configs" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-Bean-Creation-Annotation-Based" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/03-Bean-Creation-Java-Based" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/04-Bean-Scopes" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/03-Dependency-Injection" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-Explicit-Wiring-by-Constructor-Injection" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-Explicit-Wiring-by-Setter-Injection" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/03-Explicit-Wiring-for-FacotryMethod-Args" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/04-Auto-Wiring-Xml-Config" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/05-Auto-Wiring-Annotation-Based" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/06-Auto-Wiring-Java-Based" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/04-Spring-AOP" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-AOP-SchemaBased" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-Point-Cut-Designator" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/03-Annotation-Point-Cut-Designator" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/04-AOP-using-AspectJ" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/05-Environment-Profile" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-Spring-Profile-in-Xml-Config" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/06-Spring-JDBC" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/07-Spring-ORM" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/08-Spring-MVC" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700799179312_4" label="Servlet-Template" name="Servlet-Template"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700472251788_2" label="Window Working Set" name="Aggregate for window 1700472251788"/>
+</workingSetManager>

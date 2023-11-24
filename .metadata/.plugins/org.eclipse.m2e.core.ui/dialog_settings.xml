@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Workspace\Eclipse_Workspace\Web-Development\Spring-Framework"/>
+			<item value="D:\Workspace\Eclipse_Workspace\Web-Development\Servlet-Template"/>
+			<item value="C:\Users\Naing Naing Lin\git\repository\Spring-Framework"/>
+			<item value="D:\Workspace\Eclipse_Workspace\Web-Development"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Workspace\Eclipse_Workspace\Web-Development"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="org.01.Hello.Servlet"/>
+		</list>
+		<list key="groupId">
+			<item value="com.jdc"/>
+		</list>
+		<list key="artifactId">
+			<item value="01-Hello-Servlet"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="1.0"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.jdc"/>
+			<item value="com.nnl"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="01-Hello-Servlet"/>
+			<item value="Servlet-Course"/>
+			<item value="Servlet-Template"/>
+			<item value="Servlet"/>
+			<item value="04-AOP-using-AspectJ"/>
+			<item value="04-Spring-AOP"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="1.0"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="01-Hello-Servlet"/>
+			<item value="04-AOP-using-AspectJ"/>
+			<item value="03-Annotation-Point-Cut-Designator"/>
+			<item value="02-Point-Cut-Designator"/>
+			<item value="01-Spring-Profile-in-Xml-Config"/>
+			<item value="08-Spring-MVC"/>
+			<item value="07-Spring-ORM"/>
+			<item value="06-Spring-JDBC"/>
+			<item value="05-Environment-Profile"/>
+			<item value="01-AOP-SchemaBased"/>
+			<item value="04-Bean-Scopes"/>
+			<item value="04-Hybrid-Xml-Annotation"/>
+			<item value="03-Bean-Creation-Java-Based"/>
+			<item value="02-Bean-Creation-Annotation-Based"/>
+			<item value="01-Bean-Creation-Xml-Configs"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
