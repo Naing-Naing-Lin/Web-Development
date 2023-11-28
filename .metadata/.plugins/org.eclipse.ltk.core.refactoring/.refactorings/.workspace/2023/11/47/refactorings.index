@@ -12,3 +12,6 @@
 1700798980811	Delete resource 'Servlet-Template'
 1700799594048	Delete 3 resources
 1700799916092	Delete resource 'Sample'
+1700884117426	Delete resource '01-DirectlyInvoke-Include'
+1700895486797	Delete resource '02-Directly-Invoke-by-Forward'
+1700895561017	Rename resource '01-Directly-Invoke-by-Include'

@@ -1,0 +1,5 @@
+Potato-Chips	Food	500
+Fish-Chips	Food	500
+Pepsi	Drink	700
+Cola	Drink	650
+Nest-Cafe	Drink	500

@@ -2,4 +2,5 @@ GitRepositoriesView.GitDirectories=D\:\\Workspace\\Eclipse_Workspace\\Web-Develo
 GitRepositoriesView.GitDirectories.relative=.git;
 RepositoryGroups.uuids=
 core_autoIgnoreDerivedResources=false
+core_ssh_default_agent=\\\\.\\pageant
 eclipse.preferences.version=1

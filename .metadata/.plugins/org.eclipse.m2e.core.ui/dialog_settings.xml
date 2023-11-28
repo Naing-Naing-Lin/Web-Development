@@ -45,13 +45,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.01.Hello.Servlet"/>
+			<item value="org.02.Listener.Sample.1"/>
 		</list>
 		<list key="groupId">
 			<item value="com.jdc"/>
 		</list>
 		<list key="artifactId">
-			<item value="01-Hello-Servlet"/>
+			<item value="02-Listener-Sample-1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -68,17 +68,14 @@
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
 			<item value="com.jdc"/>
-			<item value="com.nnl"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="01-Hello-Servlet"/>
-			<item value="Servlet-Course"/>
-			<item value="Servlet-Template"/>
-			<item value="Servlet"/>
-			<item value="04-AOP-using-AspectJ"/>
-			<item value="04-Spring-AOP"/>
+			<item value="02-Listener-Sample-1"/>
+			<item value="04-Servlet-Listeners"/>
+			<item value="01-Getting-Start-Listeners"/>
+			<item value="01-Listeners"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -94,21 +91,21 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="02-Listener-Sample-1"/>
+			<item value="01-Getting-Start-Listeners"/>
+			<item value="01-Listeners"/>
+			<item value="04-Servlet-Listeners"/>
+			<item value="03-Servlet-Scopes"/>
+			<item value="09-Spring-Security"/>
+			<item value="02-Indirectly-Invoke-by-Redirect"/>
+			<item value="02-Directly-Invoke-by-Forward"/>
+			<item value="01-Directly-Invoke-by-Include"/>
+			<item value="01-DirectlyInvoke-Include"/>
+			<item value="02-Servlet-Communication"/>
 			<item value="01-Hello-Servlet"/>
 			<item value="04-AOP-using-AspectJ"/>
 			<item value="03-Annotation-Point-Cut-Designator"/>
 			<item value="02-Point-Cut-Designator"/>
-			<item value="01-Spring-Profile-in-Xml-Config"/>
-			<item value="08-Spring-MVC"/>
-			<item value="07-Spring-ORM"/>
-			<item value="06-Spring-JDBC"/>
-			<item value="05-Environment-Profile"/>
-			<item value="01-AOP-SchemaBased"/>
-			<item value="04-Bean-Scopes"/>
-			<item value="04-Hybrid-Xml-Annotation"/>
-			<item value="03-Bean-Creation-Java-Based"/>
-			<item value="02-Bean-Creation-Annotation-Based"/>
-			<item value="01-Bean-Creation-Xml-Configs"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

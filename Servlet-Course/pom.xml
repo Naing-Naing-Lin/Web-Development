@@ -8,6 +8,9 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>01-Hello-Servlet</module>
+		<module>02-Servlet-Communication</module>
+		<module>03-Servlet-Scopes</module>
+		<module>04-Servlet-Listeners</module>
 	</modules>
 	
 	<dependencies>
@@ -15,6 +18,13 @@
 			<groupId>jakarta.servlet</groupId>
 			<artifactId>jakarta.servlet-api</artifactId>
 			<version>6.0.0</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>jakarta.servlet.jsp</groupId>
+			<artifactId>jakarta.servlet.jsp-api</artifactId>
+			<version>3.1.1</version>
 			<scope>provided</scope>
 		</dependency>
 		

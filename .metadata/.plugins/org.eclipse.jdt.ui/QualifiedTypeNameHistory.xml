@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.jdc.beans.HelloBean"/>
-    <fullyQualifiedTypeName name="com.jdc.MyConfig"/>
-    <fullyQualifiedTypeName name="com.jdc.beans.HelloBeans"/>
-    <fullyQualifiedTypeName name="com.jdc.beans.factory.Instance_Factory"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
-    <fullyQualifiedTypeName name="com.jdc.beans.MyService"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="com.jdc.MyConfigs"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
-    <fullyQualifiedTypeName name="jakarta.annotation.PreDestroy"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
-    <fullyQualifiedTypeName name="jakarta.annotation.PostConstruct"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
-    <fullyQualifiedTypeName name="com.jdc.beans.annotation.AnnotationBean"/>
-    <fullyQualifiedTypeName name="com.jdc.beans.xml.XmlBean"/>
-    <fullyQualifiedTypeName name="com.jdc.beans.java_based.JavaBasedConfig"/>
-    <fullyQualifiedTypeName name="com.jdc.beans.java_based.JavaBean"/>
-    <fullyQualifiedTypeName name="com.jdc.service.IBusinessService"/>
     <fullyQualifiedTypeName name="com.jdc.service.OtherService"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
     <fullyQualifiedTypeName name="com.jdc.AppConfigs"/>
@@ -56,6 +36,28 @@
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.jdc.service.HeroService"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="com.jdc.entity.Hero.HeroType"/>
+    <fullyQualifiedTypeName name="com.jdc.entity.Hero"/>
     <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.ServletContext"/>
+    <fullyQualifiedTypeName name="com.jdc.Counter"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.ServletContextListener"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.jdc.shop.model.Product"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.ServletContextAttributeListener"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebListener"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="com.jdc.shop.model.ProductModel"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 </qualifiedTypeNameHistroy>
