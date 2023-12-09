@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Workspace\Eclipse_Workspace\Web-Development\Spring-Framework\06-Spring-JDBC"/>
 			<item value="D:\Workspace\Eclipse_Workspace\Web-Development\Spring-Framework"/>
 			<item value="D:\Workspace\Eclipse_Workspace\Web-Development\Servlet-Template"/>
 			<item value="C:\Users\Naing Naing Lin\git\repository\Spring-Framework"/>
@@ -45,13 +46,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.02.Listener.Sample.1"/>
+			<item value="org.02.Spring.JDBC.by.Annotation"/>
 		</list>
 		<list key="groupId">
-			<item value="com.jdc"/>
+			<item value="com.nnl"/>
 		</list>
 		<list key="artifactId">
-			<item value="02-Listener-Sample-1"/>
+			<item value="02-Spring-JDBC-by-Annotation"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -67,15 +68,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.jdc"/>
+			<item value="com.nnl"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="02-Listener-Sample-1"/>
-			<item value="04-Servlet-Listeners"/>
-			<item value="01-Getting-Start-Listeners"/>
-			<item value="01-Listeners"/>
+			<item value="02-Spring-JDBC-by-Annotation"/>
+			<item value="06-Spring-JDBC"/>
+			<item value="01-Spring-JDBC-by-Xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -91,21 +91,21 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="02-Spring-JDBC-by-Annotation"/>
+			<item value="01-Spring-JDBC-by-Xml"/>
+			<item value="01-"/>
+			<item value="01-Xml-Based-Sample-1"/>
+			<item value="01-Xml-Based-DatabaseConnection-Sample1"/>
+			<item value="03-Spring-JDBC-Using-JavaBased"/>
+			<item value="02-Xml-Config-by-bonecp-dependency"/>
+			<item value="01-Spring-JDBC-Using-Xml"/>
+			<item value="01-Getting-Start-MVC"/>
 			<item value="02-Listener-Sample-1"/>
 			<item value="01-Getting-Start-Listeners"/>
 			<item value="01-Listeners"/>
 			<item value="04-Servlet-Listeners"/>
 			<item value="03-Servlet-Scopes"/>
 			<item value="09-Spring-Security"/>
-			<item value="02-Indirectly-Invoke-by-Redirect"/>
-			<item value="02-Directly-Invoke-by-Forward"/>
-			<item value="01-Directly-Invoke-by-Include"/>
-			<item value="01-DirectlyInvoke-Include"/>
-			<item value="02-Servlet-Communication"/>
-			<item value="01-Hello-Servlet"/>
-			<item value="04-AOP-using-AspectJ"/>
-			<item value="03-Annotation-Point-Cut-Designator"/>
-			<item value="02-Point-Cut-Designator"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

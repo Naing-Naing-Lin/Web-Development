@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>MVC Home</title>
+</head>
+<body>
+	<h1>Spring MVC Framework</h1>
+	<ul>
+		<li><a th:href="@{/hello}">Hello Controller</a></li>
+		<li><a th:href="@{/hello?input=Query Parameter}">Hello Controller with Param</a>
+		<li><a th:href="@{/hello/sub}">Hello Controller with Sub Url</a></li>
+		<li><a th:href="@{/hello/aaa/bb}">Hello Controller with Other Url</a></li>
+	</ul>
+	
+	<form th:action="@{/hello}" method="post">
+		<input type="submit" value="Post" />
+	</form>
+</body>
+</html>
