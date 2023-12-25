@@ -54,5 +54,5 @@ public class ApplicationConfig {
 				
 		return new JdbcTemplate(ds, true);
 	}
-	
+
 }

@@ -8,7 +8,11 @@
 	<h1>Spring MVC Framework</h1>
 	<ul>
 		<li><a th:href="@{/hello}">Hello Controller</a></li>
-		<li><a th:href="@{/hello?input=Query Parameter}">Hello Controller with Param</a>
+		<li><a th:href="@{/hello/str/pathText}">Hello Controller with @PathVariable</a></li>
+		<li><a th:href="@{/hello/001/mg mg}">Hello Controller with Multiple @PathVariable</a></li>
+		<li><a th:href="@{/hello/digit/100}">Hello Controller with @PathVariable for Digit</a></li>
+		<li><a th:href="@{/hello/digit/100/300}">Hello Controller with @PathVariable for Two Digits</a></li>
+		<li><a th:href="@{/hello?input=Query-Parameter}">Hello Controller with Param</a>
 		<li><a th:href="@{/hello/sub}">Hello Controller with Sub Url</a></li>
 		<li><a th:href="@{/hello/aaa/bb}">Hello Controller with Other Url</a></li>
 	</ul>

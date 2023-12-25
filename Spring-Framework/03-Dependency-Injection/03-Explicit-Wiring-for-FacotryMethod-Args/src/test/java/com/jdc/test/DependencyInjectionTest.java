@@ -15,7 +15,7 @@ public class DependencyInjectionTest {
 	
 	@Test
 	void test_for_explicit_wiring() {
-		client.callService();;
+		client.callService();
 	}
 	
 }

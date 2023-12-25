@@ -10,7 +10,7 @@
 
 	<h2>Servlet Communication</h2>
 
-	<p>
+	<div>
 		<h4>Indirectly Invoke</h4>
 		<ul>
 			<li>
@@ -19,6 +19,6 @@
 			
 			
 		</ul>
-	</p>
+	</div>
 </body>
 </html>

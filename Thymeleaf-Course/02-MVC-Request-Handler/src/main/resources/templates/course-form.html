@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Course Form</title>
+<link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}" />
+</head>
+<body>
+
+	<div class="container mt-4">
+		<div class="col-5">
+			<h4>Course Form</h4>
+			<form th:action="@{/course/save}" method="post" th:object="${course}">
+				<input type="number" hidden="hidden" th:field="*{id}" />
+				
+				<div class="form-group row mb-3">
+					<label for="name" class="form-lable">Name</label>
+					<input type="text" id="name" name="name" class="form-control" th:field="*{name}" />
+				</div>
+				
+				<div class="form-group row mb-3">
+					<label for="level" class="form-lable">Level</label>
+					<select name="level" id="level" class="form-select mb-3" th:field="*{level}">
+						<option value="">Select One</option>
+						<option th:each="l: ${levels}" th:value="${l}" th:text="${l.level}"></option>
+					</select>
+				</div>
+				
+				<div class="form-group row mb-3">
+					<label for="price" class="form-lable">Price</label>
+					<input type="number" id="price" name="price" class="form-control" th:field="*{price}"/>
+				</div>
+				
+				<div class="form-group row mb-3">
+					<label for="duration" class="form-lable">Duration</label>
+					<input type="number" id="duration" name="duration" class="form-control" th:field="*{duration}"/>
+				</div>
+				
+				<div class="form-group row mb-3">
+					<label for="startDate" class="form-lable">Start Date</label>
+					<input type="date" id="startDate" name="startDate" class="form-control" th:field="*{startDate}"/>
+				</div>
+				
+				<div th:unless="*{id}">
+					<input type="submit" value="Save" class="btn btn-primary"/>
+				</div>
+				<div th:if="*{id}">
+					<input type="submit" value="Update" class="btn btn-secondary"/>
+				</div>
+				
+				
+			</form>
+		</div>
+	</div>
+
+<script type="text/javascript" th:src="@{/bootstrap/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>

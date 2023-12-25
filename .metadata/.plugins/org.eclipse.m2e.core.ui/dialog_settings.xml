@@ -2,8 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="D:\Workspace\Eclipse_Workspace\Web-Development\Spring-Framework\06-Spring-JDBC"/>
+			<item value="D:\Workspace\Eclipse_Workspace\Web-Development\Spring-Framework\08-Spring-Data-JPA"/>
 			<item value="D:\Workspace\Eclipse_Workspace\Web-Development\Spring-Framework"/>
+			<item value="D:\Workspace\Eclipse_Workspace\Web-Development\Spring-Framework\06-Spring-JDBC"/>
 			<item value="D:\Workspace\Eclipse_Workspace\Web-Development\Servlet-Template"/>
 			<item value="C:\Users\Naing Naing Lin\git\repository\Spring-Framework"/>
 			<item value="D:\Workspace\Eclipse_Workspace\Web-Development"/>
@@ -46,13 +47,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.02.Spring.JDBC.by.Annotation"/>
+			<item value="org.04.hibernate.jpa.select.and.relations"/>
 		</list>
 		<list key="groupId">
 			<item value="com.nnl"/>
 		</list>
 		<list key="artifactId">
-			<item value="02-Spring-JDBC-by-Annotation"/>
+			<item value="04-hibernate-jpa-select-and-relations"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -69,13 +70,26 @@
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
 			<item value="com.nnl"/>
+			<item value="com.jdc"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="02-Spring-JDBC-by-Annotation"/>
-			<item value="06-Spring-JDBC"/>
-			<item value="01-Spring-JDBC-by-Xml"/>
+			<item value="04-hibernate-jpa-select-and-relations"/>
+			<item value="08-Spring-DataJPA"/>
+			<item value="03-spring-data-jpa-with-jpql"/>
+			<item value="02-SpringDataJPA-by-Xml"/>
+			<item value="02-MVC-Request-Handler"/>
+			<item value="Thymeleaf-Course"/>
+			<item value="01-Spring-Data-JPA-by-XML"/>
+			<item value="Spring-Framework"/>
+			<item value="08-Spring-Data-Jpa"/>
+			<item value="08-Spring-Data-JPA"/>
+			<item value="08-Spring-Data_JPA"/>
+			<item value="01-IOC-Container"/>
+			<item value="03-Spring-ORM-with-LCEMFB-without-using-persistenceXml"/>
+			<item value="07-Spring-ORM"/>
+			<item value="02-Spring-ORM-by-Annotation"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -91,21 +105,21 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="04-hibernate-jpa-select-and-relations"/>
+			<item value="03-spring-data-jpa-with-jpql"/>
+			<item value="02-SpringDataJPA-by-Xml"/>
+			<item value="02-MVC-Request-Handler"/>
+			<item value="01-Spring-Data-JPA-by-XML"/>
+			<item value="08-Spring-DataJPA"/>
+			<item value="08-Spring-Data-Jpa"/>
+			<item value="08-Spring-Data-JPA"/>
+			<item value="08-Spring-Data_JPA"/>
+			<item value="03-Spring-ORM-with-LCEMFB-without-using-persistenceXml"/>
+			<item value="02-Spring-ORM-by-Annotation"/>
+			<item value="01-Getting-Start"/>
+			<item value="03-Spring-JDBC-Sample"/>
 			<item value="02-Spring-JDBC-by-Annotation"/>
 			<item value="01-Spring-JDBC-by-Xml"/>
-			<item value="01-"/>
-			<item value="01-Xml-Based-Sample-1"/>
-			<item value="01-Xml-Based-DatabaseConnection-Sample1"/>
-			<item value="03-Spring-JDBC-Using-JavaBased"/>
-			<item value="02-Xml-Config-by-bonecp-dependency"/>
-			<item value="01-Spring-JDBC-Using-Xml"/>
-			<item value="01-Getting-Start-MVC"/>
-			<item value="02-Listener-Sample-1"/>
-			<item value="01-Getting-Start-Listeners"/>
-			<item value="01-Listeners"/>
-			<item value="04-Servlet-Listeners"/>
-			<item value="03-Servlet-Scopes"/>
-			<item value="09-Spring-Security"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

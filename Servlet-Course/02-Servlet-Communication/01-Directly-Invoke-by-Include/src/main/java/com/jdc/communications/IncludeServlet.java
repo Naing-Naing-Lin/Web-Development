@@ -20,23 +20,20 @@ public class IncludeServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// There are 3 ways
 		// Include Message (ServletRequest -> Relative Path)
-		var header = req.getRequestDispatcher("headerInclude");
-		header.include(req, resp);
+		// HeaderInclude Servlet
+		req.getRequestDispatcher("headerInclude").include(req, resp);
 		
 		
 		
 		// Include Message (ServletContext -> Absolute Path)
-		var message = getServletContext().getRequestDispatcher("/messageInclude");
-		message.include(req, resp);
+		// MessageInclude Servlet
+		getServletContext().getRequestDispatcher("/messageInclude").include(req, resp);
+		
 		
 		
 		// Include Message (ServletContext -> Servlet Name)
-		var footer = getServletContext().getNamedDispatcher("FooterInclude");
-		footer.include(req, resp);
-
-		
-		
-		
+		// FooterInclude Servlet
+		getServletContext().getNamedDispatcher("FooterInclude").include(req, resp);
 		
 	}
 }

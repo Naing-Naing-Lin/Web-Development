@@ -10,13 +10,9 @@
 	<artifactId>06-Spring-JDBC</artifactId>
 	<packaging>pom</packaging>
 	<modules>
-		<module>01-Spring-JDBC-Using-Xml</module>
-		<module>02-Xml-Config-by-bonecp-dependency</module>
-		<module>03-Spring-JDBC-Using-JavaBased</module>
-		<module>01-Xml-Based-Sample1</module>
-		<module>01-Xml-Based-Sample-1</module>
 		<module>01-Spring-JDBC-by-Xml</module>
 		<module>02-Spring-JDBC-by-Annotation</module>
+		<module>03-Spring-JDBC-Sample</module>
 	</modules>
 
 	<dependencies>

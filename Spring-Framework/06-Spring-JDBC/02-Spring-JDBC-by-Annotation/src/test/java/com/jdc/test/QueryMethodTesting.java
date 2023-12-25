@@ -14,6 +14,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.jdbc.core.DataClassRowMapper;
 import org.springframework.jdbc.core.JdbcOperations;
 import org.springframework.jdbc.core.PreparedStatementCreatorFactory;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
@@ -33,21 +34,23 @@ public class QueryMethodTesting {
 	@Order(1)
 	void test1() {
 		var sql = "Select * from student_tbl";
-		List<Student> studentList = new ArrayList<Student>();
 		
-		var result = operations.query(sql, rowMapper -> {
-			
-			while(rowMapper.next()) {
-				var student = new Student();
-				student.setName(rowMapper.getString(1));
-				student.setAge(rowMapper.getInt(2));
-				student.setDob(rowMapper.getDate(3).toLocalDate());
-				
-				studentList.add(student);
-			}
-			return studentList;
-		});
-		assertEquals(5, result.size());
+		var result = operations.query(sql, new DataClassRowMapper <> (Student.class));
+		
+//		List<Student> studentList = new ArrayList<Student>();
+//		var result = operations.query(sql, rowMapper -> {
+//			
+//			while(rowMapper.next()) {
+//				var student = new Student();
+//				student.setName(rowMapper.getString(1));
+//				student.setAge(rowMapper.getInt(2));
+//				student.setDob(rowMapper.getDate(3).toLocalDate());
+//				
+//				studentList.add(student);
+//			}
+//			return studentList;
+//		});
+		assertEquals(6, result.size());
 	}
 	
 	@Test
@@ -73,7 +76,7 @@ public class QueryMethodTesting {
 			return studentList;
 		});
 		
-		assertEquals(5, result.size());
+		assertEquals(6, result.size());
 	}
 	
 	@ParameterizedTest

@@ -10,7 +10,7 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
-		<item key="OUTSIDE_LOCATION" value="D:\Workspace\Eclipse_Workspace\Web-Development\Spring-Framework\03-Dependency-Injection"/>
+		<item key="OUTSIDE_LOCATION" value="D:\Workspace\Eclipse_Workspace\Web-Development\Thymeleaf-Course\02-MVC-Request-Handler"/>
 	</section>
 	<section name="NewWizardAction">
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard"/>
@@ -18,6 +18,14 @@
 			<item value="org.eclipse.m2e"/>
 			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
 			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="420"/>
+		<item key="DIALOG_Y_ORIGIN" value="177"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
 		</list>
 	</section>
 </section>

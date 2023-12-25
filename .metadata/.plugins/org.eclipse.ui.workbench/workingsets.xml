@@ -30,10 +30,19 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-Spring-Profile-in-Xml-Config" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/06-Spring-JDBC" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/07-Spring-ORM" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/08-Spring-MVC" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/09-Spring-Security" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-Spring-JDBC-by-Xml" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-Spring-JDBC-by-Annotation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/03-Spring-JDBC-Sample" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-Spring-ORM-by-Annotation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-Spring-ORM-by-Xml" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/03-Spring-ORM-with-LCEMFB-without-using-persistenceXml" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/09-Spring-MVC" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/10-Spring-Security" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/08-Spring-DataJPA" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-XmlBased-using-h2Database" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-AnnotationBased-using-mysql" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/03-spring-data-jpa-with-jpql" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/04-hibernate-jpa-select-and-relations" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700799179312_4" label="Servlet-Template" name="Servlet-Template"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700472251788_2" label="Window Working Set" name="Aggregate for window 1700472251788"/>

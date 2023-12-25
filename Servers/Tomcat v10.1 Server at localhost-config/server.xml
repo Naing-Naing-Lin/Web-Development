@@ -140,7 +140,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="02-Listener-Sample-1" path="/02-Listener-Sample-1" reloadable="true" source="org.eclipse.jst.jee.server:02-Listener-Sample-1"/></Host>
+      <Context docBase="01-Hello-Servlet" path="/01-Hello-Servlet" reloadable="true" source="org.eclipse.jst.jee.server:01-Hello-Servlet"/><Context docBase="01-Directly-Invoke-by-Include-or-Forward" path="/01-Directly-Invoke-by-Include" reloadable="true" source="org.eclipse.jst.jee.server:01-Directly-Invoke-by-Include-or-Forward"/><Context docBase="02-Indirectly-Invoke-by-Redirect" path="/02-Indirectly-Invoke-by-Redirect" reloadable="true" source="org.eclipse.jst.jee.server:02-Indirectly-Invoke-by-Redirect"/><Context docBase="03-Servlet-Scopes" path="/03-Servlet-Scopes" reloadable="true" source="org.eclipse.jst.jee.server:03-Servlet-Scopes"/><Context docBase="01-Getting-Start-Listeners" path="/01-Getting-Start-Listeners" reloadable="true" source="org.eclipse.jst.jee.server:01-Getting-Start-Listeners"/><Context docBase="01-Getting-Start-MVC" path="/01-Getting-Start-MVC" reloadable="true" source="org.eclipse.jst.jee.server:01-Getting-Start-MVC"/><Context docBase="02-Sample-MVC-Shopping-Cart" path="/02-Sample-MVC-Shopping-Cart" reloadable="true" source="org.eclipse.jst.jee.server:02-Sample-MVC-Shopping-Cart"/></Host>
     </Engine>
   </Service>
 </Server>

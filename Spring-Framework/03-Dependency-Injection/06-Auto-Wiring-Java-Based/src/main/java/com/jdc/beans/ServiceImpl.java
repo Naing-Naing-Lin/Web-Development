@@ -1,7 +1,5 @@
 package com.jdc.beans;
 
-
-
 public class ServiceImpl extends MainService{
 
 	@Override

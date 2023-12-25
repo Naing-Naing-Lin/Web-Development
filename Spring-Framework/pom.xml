@@ -11,25 +11,28 @@
 		<module>02-Spring-Beans</module>
 		<module>03-Dependency-Injection</module>
 		<module>04-Spring-AOP</module>
-		<module>05-Spring-JDBC</module>
-		<module>06-Spring-ORM</module>
-		<module>07-Spring-MVC</module>
 		<module>05-Environment-Profile</module>
 		<module>06-Spring-JDBC</module>
 		<module>07-Spring-ORM</module>
-		<module>08-Spring-MVC</module>
-		<module>09-Spring-Security</module>
+		<module>08-Spring-DataJPA</module>
+		<module>09-Spring-MVC</module>
+		<module>10-Spring-Security</module>
+
 	</modules>
 	
 	<properties>
 		<spring-version>6.1.1</spring-version>
-		<juint-version>5.10.1</juint-version>
+		<hibernate-core-version>6.3.1.Final</hibernate-core-version>
+		<junit-version>5.10.1</junit-version>
 		<mysql-version>8.2.0</mysql-version>
 		<hsqldb-version>2.7.2</hsqldb-version>
 		<lombok-version>1.18.30</lombok-version>
+		<spring-data-jpa-version>3.2.0</spring-data-jpa-version>
+		<h2-database-version>2.2.224</h2-database-version>
 	</properties>
 
 	<dependencies>
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -52,7 +55,7 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
-			<version>${juint-version}</version>
+			<version>${junit-version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

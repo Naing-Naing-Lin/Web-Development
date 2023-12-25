@@ -9,6 +9,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>01-Getting-Start-Listeners</module>
-  	<module>02-Listener-Sample-1</module>
+  	<module>02-Sample-MVC-Shopping-Cart</module>
   </modules>
 </project>

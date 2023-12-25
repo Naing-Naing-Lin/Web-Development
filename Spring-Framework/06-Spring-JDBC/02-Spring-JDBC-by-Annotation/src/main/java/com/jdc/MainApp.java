@@ -27,7 +27,7 @@ public class MainApp {
 			}
 			
 			
-			// JDBC Operations / JDBC Template
+			// Getting Bean -> JDBC Operations / JDBC Template
 			
 			var template = context.getBean(JdbcTemplate.class);
 			if(template != null) {

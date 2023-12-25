@@ -10,7 +10,7 @@
 
 	<h2>Servlet Communication</h2>
 
-	<p>
+	<div>
 		<h4>Directly Invoke</h4>
 		<ul>
 			<li>
@@ -21,6 +21,6 @@
 				<a href="forwardServlet">By Forward</a>
 			</li>
 		</ul>
-	</p>
+	</div>
 </body>
 </html>

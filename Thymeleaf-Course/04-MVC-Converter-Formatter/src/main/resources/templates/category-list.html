@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{/layouts/template :: home(title = 'Category', current= 'category', main=~{::#main})}">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<nav th:replace="~{/layouts/template::nav}"></nav>
+
+<main id="main" class="container mt-4">
+	
+	<div class="row align-items-center mb-4">
+		<div class="col-auto">
+			<h4>Category</h4>
+		</div>
+		<div class="col-auto">
+			<a th:href="@{/category/form}" class="btn btn-success">Add Category</a>
+		</div>
+	</div>
+	
+	<div class="alert alert-info" th:if="${status}">
+		[[${status}]]
+	</div>
+	
+	<div class="alert alert-info" th:unless="${categories.size}">
+		No Category Found in Database!
+	</div>
+	
+	<div class="row g-3" th:if="${categories.size}">
+		<div class="col-lg-4 col-md-6 col-12" th:each="cat : ${categories}">
+			<div class="card" th:object="${cat}">
+				<div class="card-body d-flex justify-content-between">
+					<div class="col-auto">[[*{name}]]</div>
+					<div class="col-auto">
+						<a th:href="|@{/category/form}?id=*{id}|" class="icon-link">Edit</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</main>
+
+</body>
+</html>

@@ -8,7 +8,7 @@ import com.jdc.demo.aspect.BeforeLogger;
 public class AdminService implements HelloService{
 
 	@BeforeLogger // Custom Annotation to make join point 
-	@Override	
+	@Override
 	public void sayHello(String message) {
 		
 		System.out.println("%s from Admin Service".formatted(message));

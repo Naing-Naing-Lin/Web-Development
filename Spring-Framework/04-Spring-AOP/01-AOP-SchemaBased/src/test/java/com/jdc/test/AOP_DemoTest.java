@@ -18,7 +18,7 @@ public class AOP_DemoTest {
 	
 	@Test
 	void demo() {
-		serviceBean.doBusiness("Mg Mg", "Aung Aung");
+		serviceBean.doBusiness();
 		
 		System.out.println();
 		

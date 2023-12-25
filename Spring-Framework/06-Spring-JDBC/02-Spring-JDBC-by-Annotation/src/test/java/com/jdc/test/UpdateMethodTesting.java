@@ -76,5 +76,4 @@ public class UpdateMethodTesting {
 		assertEquals(1, row);
 	}
 	
-	
 }

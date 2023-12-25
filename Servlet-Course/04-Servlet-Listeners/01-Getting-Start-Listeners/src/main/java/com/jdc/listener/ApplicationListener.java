@@ -16,18 +16,18 @@ public class ApplicationListener  implements ServletContextListener, ServletCont
 	
 	@Override
 	public void attributeAdded(ServletContextAttributeEvent event) {
-		System.out.println("Attribute is added");
+		System.out.println("Servlet Context Attribute is added");
 	}
 	
 	@Override
 	public void attributeRemoved(ServletContextAttributeEvent event) {
 		
-		System.out.println("Attribute is removed");
+		System.out.println("Servlet Context Attribute is removed");
 	}
 	
 	@Override
 	public void attributeReplaced(ServletContextAttributeEvent event) {
 		
-		System.out.println("Attribute is replaced");
+		System.out.println("Servlet Context Attribute is replaced");
 	}
 }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{/layouts/template :: home(title = ${category} and ${category.id}? 'Category Edit Form' : 'Category Create Form', current = 'category', main = ~{:: #main})}">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<nav th:replace="~{/layouts/template :: nav}"></nav>
+	<main id="main" class="container mt-4">
+		<h4>[[${category} and ${category.id}? 'Category Edit Form' : 'Category Create Form']]</h4>
+		
+		<form th:action="@{/category/save}" method="post" class="w-50" th:object="${category}">
+			<input type="number" hidden="hidden" th:field="*{id}" />
+			<label for="name" class="form-label">Category Name</label>
+			<input id="name" type="text" class="form-control" placeholder="Enter Category" th:field="*{name}"/>
+				
+			<input type="submit" value="Save" class="btn btn-success" />			
+		</form>
+	</main>
+</body>
+</html>

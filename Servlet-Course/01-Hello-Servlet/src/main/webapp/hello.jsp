@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h2> Welcome to Hello Servlet</h2>
+<h2 > ${message} </h2>
 
 </body>
 </html>
