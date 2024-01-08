@@ -1,0 +1,4 @@
+com\jdc\test\QueryMethodTesting.class
+com\jdc\test\UpdateMethodTesting.class
+com\jdc\test\ExecuteMethodTesting.class
+com\jdc\test\DatabaseConnectionTest.class

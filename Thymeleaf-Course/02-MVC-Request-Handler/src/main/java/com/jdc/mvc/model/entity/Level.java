@@ -2,7 +2,9 @@ package com.jdc.mvc.model.entity;
 
 public enum Level {
 
-	BASIC("Basic"), INTERMEDIATE("Intermediate"), ADVANCED("Advanced");
+	BASIC("Basic"), 
+	INTERMEDIATE("Intermediate"), 
+	ADVANCED("Advanced");
 	
 	private String level;
 	

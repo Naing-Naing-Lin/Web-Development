@@ -41,7 +41,9 @@
 			%>
 			
 			<tr>
-				<td><%= v.getId() %></td>
+				<td>
+					<a href="sale-details?voucherId=<%= v.getId() %>"> <%= v.getId() %> </a>
+				</td>
 				<td><%= formatDateTime(v.getSaleDateTime()) %></td>
 				<td><%= v.getCustomer() %></td>
 				<td><%= v.getCount() %></td>
@@ -52,8 +54,8 @@
 				}
 			%>
 		</tbody>
-		
 	</table>
 	
+	<a href="index.jsp">Back</a>
 </body>
 </html>

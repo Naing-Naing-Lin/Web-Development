@@ -1,0 +1,8 @@
+com\jdc\entity\Student$Gender.class
+com\jdc\entity\CourseFees.class
+com\jdc\entity\dto\StudentCountByClassRoomDto.class
+com\jdc\entity\RegisterPk.class
+com\jdc\entity\ClassRoom.class
+com\jdc\entity\Course.class
+com\jdc\entity\Register.class
+com\jdc\entity\Student.class

@@ -13,7 +13,11 @@
 	<div>
 		<h2>My Cart</h2>
 		
-		<h4>Item details in shopping cart</h4>
+		<hr />
+		<p><a href="index.jsp">Home</a></p>
+		<hr />
+		
+		<h4>Item details in Shopping Cart</h4>
 		<section>
 			<table style="width:50%; margin:15px;">
 				<tr>
@@ -60,10 +64,18 @@
 				</tr>
 				
 			</table>
-			
-			<p><a href="index.jsp">Back</a></p>
-			
 		</section>
+		<hr />
+			
+		<div>
+			<h4>Check-out</h4>
+			
+			<form action="check-out" method="post">
+				<label for="customer">Customer Name :</label>
+				<input type="text" name="customer" />
+				<button type="submit" >Check Out</button>
+			</form>
+		</div>
 	</div>
 
 	

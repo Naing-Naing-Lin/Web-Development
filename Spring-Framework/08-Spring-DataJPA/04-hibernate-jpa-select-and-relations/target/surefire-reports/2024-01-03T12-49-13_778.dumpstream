@@ -1,0 +1,5 @@
+# Created at 2024-01-03T12:50:13.239
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Workspace\Eclipse_Workspace\Web-Development\Spring-Framework\08-Spring-DataJPA\04-hibernate-jpa-select-and-relations\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

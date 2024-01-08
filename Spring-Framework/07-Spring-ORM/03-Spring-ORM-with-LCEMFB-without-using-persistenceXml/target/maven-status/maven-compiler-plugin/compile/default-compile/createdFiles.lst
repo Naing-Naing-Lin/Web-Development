@@ -1,0 +1,3 @@
+com\jdc\entity\Category.class
+com\jdc\repo\CategoryRepo.class
+com\jdc\config\ApplicationConfig.class

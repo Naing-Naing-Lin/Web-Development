@@ -6,11 +6,4 @@
     <version>1.0</version>
   </parent>
   <artifactId>04-Bean-Scopes</artifactId>
-  <dependencies>
-  	<dependency>
-  		<groupId>com.jdc.scope</groupId>
-  		<artifactId>03-MVC-Scope</artifactId>
-  		<version>1.0</version>
-  	</dependency>
-  </dependencies>
 </project>

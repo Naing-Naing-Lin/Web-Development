@@ -1,0 +1,4 @@
+com\jdc\mvc\controller\HelloController.class
+com\jdc\mvc\config\AppConfig.class
+com\jdc\mvc\controller\HomeController.class
+com\jdc\mvc\config\ApplicationInitializer.class

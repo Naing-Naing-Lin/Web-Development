@@ -21,7 +21,7 @@
 	</modules>
 	
 	<properties>
-		<spring-version>6.1.1</spring-version>
+		<spring-version>6.1.2</spring-version>
 		<hibernate-core-version>6.3.1.Final</hibernate-core-version>
 		<junit-version>5.10.1</junit-version>
 		<mysql-version>8.2.0</mysql-version>
@@ -32,8 +32,13 @@
 	</properties>
 
 	<dependencies>
-		
 		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring-version}</version>
+		</dependency>
+		
+		<!--<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>${spring-version}</version>
@@ -43,7 +48,7 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring-version}</version>
-		</dependency>
+		</dependency>-->
 		
 		<dependency>
 			<groupId>org.springframework</groupId>

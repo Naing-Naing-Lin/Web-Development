@@ -51,7 +51,7 @@ public class GenericXmlTest {
 		
 		try(var context = new GenericXmlApplicationContext()){
 			// if context.xml exists in file path/ project path not in class path('src/main/resources')
-			context.load("file:context1.xml"); 
+			context.load("file:context.xml"); 
 			context.refresh();
 			
 			var bean = context.getBean(HelloBean.class);

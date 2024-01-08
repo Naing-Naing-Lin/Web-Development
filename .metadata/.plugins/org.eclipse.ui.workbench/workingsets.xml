@@ -43,6 +43,10 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-AnnotationBased-using-mysql" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/03-spring-data-jpa-with-jpql" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/04-hibernate-jpa-select-and-relations" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-Thymeleaf-JavaBased-Config" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-PathVariable-vs-RequestParam" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-Spring-Security-Java" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-Spring-Security-Xml" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700799179312_4" label="Servlet-Template" name="Servlet-Template"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700472251788_2" label="Window Working Set" name="Aggregate for window 1700472251788"/>

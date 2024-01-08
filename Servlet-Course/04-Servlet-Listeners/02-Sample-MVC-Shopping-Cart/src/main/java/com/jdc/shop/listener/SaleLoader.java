@@ -13,7 +13,7 @@ public class SaleLoader implements ServletContextListener{
 	public void contextInitialized(ServletContextEvent sce) {
 		
 		var model = SaleModel.generate(); 
-		sce.getServletContext().setAttribute("sale-list", model);
+		sce.getServletContext().setAttribute("saleData", model);
 
 	}
 }

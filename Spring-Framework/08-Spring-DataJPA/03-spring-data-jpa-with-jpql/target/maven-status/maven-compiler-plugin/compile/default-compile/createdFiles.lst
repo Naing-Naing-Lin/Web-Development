@@ -1,0 +1,6 @@
+com\jdc\entity\Category.class
+com\jdc\ApplicationConfig.class
+com\jdc\entity\Product.class
+com\jdc\service\ProductService.class
+com\jdc\repo\ProductRepository.class
+com\jdc\entity\Product$Size.class
