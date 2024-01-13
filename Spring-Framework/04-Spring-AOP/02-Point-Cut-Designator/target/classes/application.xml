@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	
+	<context:component-scan base-package="com.jdc.demo"></context:component-scan>
+	
+	<bean id="aspectBean" class="com.jdc.demo.aspect.DemoAspect"></bean>
+	
+	<aop:config proxy-target-class="true">
+		
+		<!-- Kinded designator type -->
+		<!-- 'execution' and 'args' -->
+		<aop:pointcut expression="execution(public void com.jdc.demo.service.AdminService.*(..))" id="adminServiceExecutionScope"/>
+		<aop:pointcut expression="args(String)" id="adminServiceArgsScope"/>
+	
+		<!-- Scope designator type that supports every methods of the bean can be made join point-->
+		<!-- 'bean' and 'within' -->
+		<aop:pointcut expression="bean(adminService)" id="adminServiceBeanScope"/>
+		<aop:pointcut expression="within(com.jdc.demo.service.*)" id="serviceWithinScope"/>
+		
+		<!-- Contextual designator type -->
+		<!-- 'this' and 'target' -->
+		<aop:pointcut expression="this(com.jdc.demo.service.AdminService)" id="adminServiceThisScope"/>
+		<aop:pointcut expression="target(com.jdc.demo.service.AdminService)" id="adminServiceTargetScope"/>
+		
+		
+		
+		<aop:aspect id="demoAspectConfig" ref="aspectBean">
+			<aop:before method="beforeExecution" pointcut-ref="adminServiceExecutionScope"/>
+		</aop:aspect>
+		
+	</aop:config>
+
+
+</beans>
